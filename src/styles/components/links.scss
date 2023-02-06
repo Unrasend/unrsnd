@@ -1,0 +1,21 @@
+@import 'components/buttons.utils';
+@import 'utils/rem';
+
+.link {
+  @extend %button-reset;
+  @apply
+  transition-all
+  not-italic
+  text-t-1
+  underline
+  visited:text-t-1
+  hover:underline
+  hover:text-t-2
+  active:text-alert
+  active:no-underline
+  focus-visible:text-t-2
+  focus-visible:outline-1
+  focus-visible:no-underline
+  focus-visible:outline-dotted
+  focus-visible:outline-alert;
+}
