@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npx scully serve",
-    "build": "ng build",
-    "scully": "npx scully --sc --nw",
-    "watch": "ng build --watch --configuration development",
+    "start": "ng serve",
+    "build": "ng build --base-href /unrsnd/ && npx scully --sc",
     "lint": "ng lint"
   },
   "private": true,
