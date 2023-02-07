@@ -1,2 +1,2 @@
-- name: Scully Publish
+name: Scully Publish
   uses: cmgriffing/scully-gh-pages-action@v9
