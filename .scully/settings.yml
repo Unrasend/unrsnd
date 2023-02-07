@@ -1,0 +1,11 @@
+identifier: l0d9u30308t34e6a
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: unrsnd
+homeFolder: /home/unrasend/Work/unrsnd
+distFolder: ./dist/unrsnd
+outDir: /home/unrasend/Work/unrsnd/dist/static
+handle404: ''
+allowErrorCollect: true
