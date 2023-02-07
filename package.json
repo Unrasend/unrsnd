@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /unrsnd/ && npx scully --sc",
+    "build": "rm -r dist && ng build && npx scully --sc --nw",
     "lint": "ng lint"
   },
   "private": true,
@@ -37,6 +37,7 @@
     "@angular/cli": "~15.1.4",
     "@angular/compiler-cli": "^15.1.0",
     "@nrwl/eslint-plugin-nx": "^15.6.3",
+    "@scullyio/scully-plugin-base-href-rewrite": "^2.1.41",
     "@typescript-eslint/eslint-plugin": "5.48.1",
     "@typescript-eslint/parser": "5.48.1",
     "angular-cli-ghpages": "^1.0.5",
