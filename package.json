@@ -7,8 +7,7 @@
     "build": "ng build",
     "scully": "npx scully",
     "watch": "ng build --watch --configuration development",
-    "lint": "ng lint",
-    "deploy": "ng deploy --base-href=https://unrasend.github.io/unrsnd/"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
