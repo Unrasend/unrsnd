@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "rm -r dist && ng build && npx scully --sc --nw",
+    "build": "ng build && npx scully --sc",
     "lint": "ng lint"
   },
   "private": true,
