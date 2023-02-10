@@ -94,9 +94,11 @@ module.exports = {
     },
     colors: {
       transparent: 'transparent',
+      'bg-body': 'var(--c-bg-body)',
       'bg-1': 'var(--c-bg-1)',
       'bg-2': 'var(--c-bg-2)',
       'alert': 'var(--c-alert)',
+      't-0': 'var(--c-t-0)',
       't-1': 'var(--c-t-1)',
       't-2': 'var(--c-t-2)',
       't-3': 'var(--c-t-3)',

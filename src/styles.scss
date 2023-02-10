@@ -8,21 +8,11 @@ html, body {
   @apply h-full;
 }
 
-html {
-  @apply p-xs;
-}
-
 body {
-  @apply m-0 text-t-1 bg-bg-1 p-3xs;
+  @apply m-0 bg-bg-body p-xs text-t-1;
 
   font-family: "Droid Sans Mono", Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 100%;
-  text-shadow:
-    0 0 1ex var(--c-t-1-b),
-    0 0 2px rgba(255, 255, 255, 0.9);
-
-  scroll-behavior: smooth;
-  scrollbar-color: var(--c-scroll-thumb) var(--c-scroll-bg);
 }
 
 *,
@@ -42,4 +32,8 @@ body {
 
 ::-webkit-scrollbar-corner {
   @apply bg-scroll-bg;
+}
+
+.output {
+  color: hsl(120, 90%, 65%);
 }
