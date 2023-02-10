@@ -9,7 +9,7 @@
 
   border: 2px solid hsla(var(--c-alert-hsl), 0.45);
   border-radius: 8px;
-  background-image: radial-gradient(hsla(257, 23%, 16%, .992), hsla(236, 53%, 6%, .992));
+  background-image: radial-gradient(hsla(var(--c-bg-2-hsl), .992), hsla(var(--c-bg-1-hsl), .992));
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,7 +40,7 @@
         rgba(0, 0, 0, 0.25) 50%,
         rgba(0, 0, 0, 0) 100%);
   background-size: auto .25rem;
-  box-shadow: 0px 0px .75rem .15rem rgba(0,0,0,0.75) inset;
+  box-shadow: 0px 0px .75rem .15rem rgba(0, 0, 0, 0.75) inset;
 }
 
 .overlay::before {
@@ -59,7 +59,7 @@
       0deg,
       transparent 0%,
       hsla(var(--c-bg-1-hsl), 0.2) 1%,
-      hsla(var(--c-t-1-hsl), 0.3) 1%,
+      hsla(var(--c-f-1-hsl), 0.3) 1%,
       hsla(var(--c-bg-1-hsl), 0.2) 1%,
       transparent 100%);
   background-repeat: no-repeat;
@@ -78,6 +78,8 @@
 .terminal {
   @apply
     absolute
+    flex
+    flex-col
     w-full
     h-full;
   scroll-behavior: smooth;

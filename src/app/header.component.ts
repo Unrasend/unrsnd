@@ -50,6 +50,7 @@ import { Component } from '@angular/core';
         mr-2xs
         rounded-xl
         transition-all
+        last:mr-0
         hover:bg-bg-2
         focus:bg-bg-2;
 
