@@ -14,6 +14,7 @@ import { Component } from '@angular/core';
       justify-between
       border-bg-body
       border-b-2
+      transition-all
       hover:border-alert
       hover:bg-alert
       focus-within:bg-alert
@@ -46,14 +47,17 @@ import { Component } from '@angular/core';
         items-center
         h-full
         px-xs
+        mr-2xs
         rounded-xl
+        transition-all
         hover:bg-bg-2
         focus:bg-bg-2;
 
       &:hover {
         box-shadow: 0px 0px .2rem .1rem rgba(0,0,0,0.75) inset;
       }
-    }`
+    }
+    `
   ]
 })
 export class HeaderComponent {}
