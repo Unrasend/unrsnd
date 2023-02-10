@@ -1,0 +1,37 @@
+.text {
+  font-size: calc(8px + 0.5vw);
+}
+
+h1, .h1 {
+  font-size: calc(20px + 0.5vw);
+  @apply text-active;
+}
+
+h2, .h2 {
+  font-size: calc(18px + 0.5vw);
+  @apply text-active;
+}
+
+h3, .h3 {
+  font-size: calc(16px + 0.5vw);
+  @apply text-active;
+}
+
+h4, .h4 {
+  font-size: calc(14px + 0.5vw);
+  @apply text-active;
+}
+
+h5, .h5 {
+  font-size: calc(12px + 0.5vw);
+  @apply text-active;
+}
+
+h6, .h6 {
+  font-size: calc(10px + 0.5vw);
+  @apply text-active;
+}
+
+hr {
+  @apply text-active my-md;
+}
