@@ -1,0 +1,68 @@
+<header
+  class="
+    relative
+    flex
+    items-center
+    w-full
+    h-4xl
+    px-md
+    bg-bg-2
+    justify-between
+    xs:flex-col
+    border-bg-body
+    border-b-2
+    transition-all
+    hover:border-alert
+    hover:bg-alert
+    focus-within:bg-alert
+    focus-within:border-alert
+    xs:hover:border-bg-body
+    xs:hover:bg-bg-2
+    xs:focus-within:bg-bg-2
+    xs:focus-within:border-bg-body
+  "
+>
+  <a href="#" class="logo link after:hidden before:hidden">Name</a>
+  <input #burger id="burger" type="checkbox" class="hidden"/>
+
+  <button
+    class="burger"
+    (click)="burger.checked = !burger.checked; scrollService.toggleScroll(!burger.checked)">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="
+    flex-1
+    flex
+    items-center
+    justify-center
+    h-full
+    xs:hidden
+    transition-all
+  ">
+    <ul class="
+      flex
+      items-center
+      -translate-x-1/4
+      h-full
+      xs:h-auto
+      xs:flex-col
+      xs:translate-x-0
+    ">
+      <li class="h-full xs:mb-xl">
+        <a routerLink="test" class="link" (click)="onLinkClick()">Test</a>
+      </li>
+      <li class="h-full xs:mb-xl">
+        <a href="#" class="link" (click)="onLinkClick()">Home</a>
+      </li>
+      <li class="h-full xs:mb-xl">
+        <a href="#" class="link" (click)="onLinkClick()">Home</a>
+      </li>
+      <li class="h-full xs:mb-xl">
+        <a href="#" class="link" (click)="onLinkClick()">Home</a>
+      </li>
+    </ul>
+  </nav>
+</header>

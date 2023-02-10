@@ -18,11 +18,3 @@
   @apply pl-[#{1.875rem}] pr-[#{5rem}] py-lg;
   @include ucp-grid;
 }
-
-.border-error {
-  @include border-via-shadow(1px, var(--c-error-indicator), true, true);
-}
-
-.strong-light {
-  @apply font-normal text-text-primary;
-}

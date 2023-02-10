@@ -40,7 +40,7 @@
         rgba(0, 0, 0, 0.25) 50%,
         rgba(0, 0, 0, 0) 100%);
   background-size: auto .25rem;
-  box-shadow: 0px 0px .75rem .15rem rgba(0, 0, 0, 0.75) inset;
+  box-shadow: 0 0 .75rem .15rem rgba(0, 0, 0, 0.75) inset;
 }
 
 .overlay::before {
@@ -77,9 +77,10 @@
 
 .terminal {
   @apply
-    absolute
+    relative
     flex
     flex-col
+    overflow-auto
     w-full
     h-full;
   scroll-behavior: smooth;
