@@ -6,17 +6,17 @@ a {
   @apply
   transition-all
   not-italic
-  text-t-0
+  text-interactive
   no-underline
-  visited:text-t-0
-  hover:text-t-3
-  active:text-t-1
+  visited:text-interactive
+  hover:text-hover
+  active:text-active
   active:no-underline
-  focus-visible:text-t-2
+  focus-visible:text-hover
   focus-visible:outline-2
   focus-visible:no-underline
   focus-visible:outline-dotted
-  focus-visible:outline-t-0;
+  focus-visible:outline-focus;
 }
 
 a::before {

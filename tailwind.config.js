@@ -88,6 +88,9 @@ module.exports = {
         lg: '6px',
         xl: '8px',
       },
+      borderWidth: {
+        '1': '1px',
+      },
       transitionProperty: {
         'width': 'width',
       }
@@ -98,11 +101,12 @@ module.exports = {
       'bg-1': 'var(--c-bg-1)',
       'bg-2': 'var(--c-bg-2)',
       'alert': 'var(--c-alert)',
-      't-0': 'var(--c-t-0)',
+      'interactive': 'var(--c-interactive)',
+      'active': 'var(--c-active)',
+      'hover': 'var(--c-hover)',
+      'focus': 'var(--c-focus)',
       't-1': 'var(--c-t-1)',
       't-2': 'var(--c-t-2)',
-      't-3': 'var(--c-t-3)',
-      't-alert': 'var(--c-t-alert)',
       'scroll-bg': 'var(--c-scroll-bg)',
       'scroll-thumb': 'var(--c-scroll-thumb)',
     },
