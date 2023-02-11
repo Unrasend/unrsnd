@@ -20,6 +20,8 @@
 
 .burger {
   @apply
+    hidden
+    xs:block
     absolute
     cursor-pointer
     right-md
